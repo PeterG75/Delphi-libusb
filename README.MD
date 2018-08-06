@@ -66,24 +66,21 @@ DLL.
 
 **Recent Changes**
 
--   Changed example Bulk Transfer various errors 06/05/2018
+Libusb1 Version 1.01
 
--   Changed example Arduino Transfer various errors 06/05/2018
 
--   Changed Libusb1 library various 06/04/2018
-
-    -   libusb_interface
-
+-   Changes Libusb1 - type usb_option added 04/08/2018
+-   Changed Libusb1 - type Libusb_log_level 04/08/2018
+-   Changed libusb1helper -errorcode function  01/07/2018
+-   Changed example -Bulk Transfer various errors 06/05/2018
+-   Changed example -Arduino Transfer various errors 06/05/2018
+-   Changed Libusb1 -library various 06/04/2018
+    - libusb_interface
         -   altsetting: array of plibusb_interface_descriptor;
-
 -   Changed Libusb1 library various 21/02/2018
-
     -   libusb_interface_descriptor
-
         -   endpoint: array of plibusb_endpoint_descriptor
-
         -   &interface: array of plibusb_interface;
-
 -   Completed and tested the TestLibusb.
 
 >   **Examples in Development**
@@ -91,17 +88,10 @@ DLL.
 The following are in development and will be added one by one after testing
 
 -   Asynchronous Transfer
-
 -   EZUSB
-
 -   FxLoad
-
 -   Hotplug Test
-
 -   Synchronous Transfer
-
 -   xUSB
-
 -   DPFP
-
 -   Bulk Transfer Arduino
